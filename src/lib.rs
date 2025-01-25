@@ -21,6 +21,7 @@
 ///   IPO  - InterProcedural Optimizations  
 ///   RPC  - Return Program Counter  
 pub mod bindings {
+    #[allow(non_snake_case)]
     include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 }
 

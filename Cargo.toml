@@ -3,6 +3,9 @@ name = "tb-sys"
 links = "tb"
 version = "0.1.0"
 edition = "2021"
+description = "Bindings for the tb compiler backend"
+license = "GPLv3-or-later"
+repository = "https://github.com/MCorange99/tb-sys"
 
 [build-dependencies]
 bindgen = "0.71.1"
