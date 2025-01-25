@@ -20,8 +20,10 @@
 ///   MOP  - Meet Over all Paths  
 ///   IPO  - InterProcedural Optimizations  
 ///   RPC  - Return Program Counter  
+#[allow(non_snake_case)]
+#[allow(non_upper_case_globals)]
+#[allow(non_camel_case_types)]
 pub mod bindings {
-    #[allow(non_snake_case)]
     include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
 }
 
