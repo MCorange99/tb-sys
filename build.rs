@@ -10,6 +10,7 @@ fn run_cmd(args: &[&'static str]){
 }
 
 fn build_lib(cuik_path: &Path, build_dir: &Path, crate_dir: &Path) {
+
     std::env::set_current_dir(&cuik_path).expect("Couldnt set cwd to cuik path");
     {
         run_cmd(&["lua","build.lua", "-tb"]);
