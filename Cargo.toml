@@ -4,7 +4,7 @@ links = "tb"
 version = "0.1.0"
 edition = "2021"
 description = "Bindings for the tb compiler backend"
-license = "GPLv3-or-later"
+license = "MIT"
 repository = "https://github.com/MCorange99/tb-sys"
 exclude = ["/Cuik/"]
 
